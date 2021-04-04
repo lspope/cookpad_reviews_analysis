@@ -45,6 +45,5 @@ My recommendations are for X Stakeholders.
 --images (dir for images)
 ```
 
-
 # For More Information
 * Contact the author [Leah Pope](https://www.linkedin.com/in/leahspope/)
