@@ -4,10 +4,7 @@
 # Introduction
 The goal of this project is to perform analysis on recent reviews of the Cookpad app in order to identify trends and explore user sentiment.
 
-![cook](./images/natasha-hall-M4-b9Sa8XIU-unsplash.jpeg)
-
-Photo by <a href="https://unsplash.com/@ideanaire?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">[Natasha Hall](https://unsplash.com/s/photos/cooking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  
+![cook](./images/natasha-hall-M4-b9Sa8XIU-unsplash.jpg)
 
 # Data Description and Preparation
 This project uses user-provided reviews of the Cookpad app. Reviews from January 2019 through March 2021 were collected using [google-play-scaper](). 
