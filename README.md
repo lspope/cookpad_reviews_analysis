@@ -2,7 +2,7 @@
 
 
 ## Introduction
-The goal of this project is to perform analysis on recent reviews of the Cookpad app in order to identify trends and explore user feedback.
+The goal of this project is to perform analysis on user-sumbitted reviews of the Cookpad app in order to identify trends and explore user feedback.
 
 ![cook](./images/conscious-design-I4e1cY1I0FQ-unsplash.jpg)
 
@@ -15,11 +15,8 @@ See the [Data Prep Notebook](./code/nb1_data_collect_and_prep.ipynb) for additio
 ## Analysis
 This project includes EDA and general text analysis of user reviews of the Cookpad app. The following questions are addressed:
 
-* What were the review counts by year? 
 * Was there a difference in number of reviews submitted in 2019 (pre-pandemic) and 2020 (during pandemic)?
-* What were the review counts by Rating?
-* What are the monthly review counts over time? 
-* When examining the number of reviews per month, were there more reviews submitted for any months in 2020 (during pandemic)?
+* Was there a difference in ratings submitted in 2019 (pre-pandemic) and 2020 (during)?
 * What are the top 30 words used in 5 star ratings?
 * What are the top 30 words used in 2 and 1 star ratings?
 
