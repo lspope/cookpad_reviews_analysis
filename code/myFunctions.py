@@ -6,12 +6,7 @@ from nltk.stem import WordNetLemmatizer
 import string
 import re
 
-import pandas as pd
-
-
 import matplotlib.pyplot as plt
-import matplotlib.colors
-import seaborn as sns
 
 from wordcloud import WordCloud, ImageColorGenerator
 
@@ -51,11 +46,22 @@ def process_text(text, stopwords_list):
     return lemmatized_tokens
 
 
-def plot_word_cloud(text, word_max, bg_color='black'):
+def process_texts(texts, stopwords_list):
+    processed_texts = list()
+    for text in texts:
+        tokens = process_text(text, stopwords_list)
+        # add all the processed words/tokens to the list to be returned
+        processed_texts.extend(tokens)
+    return processed_texts
+
+
+def plot_word_cloud(text, word_max, colors='viridis', bg_color='black'):
     ''' Plot a word cloud from the given text '''
-    cloud = WordCloud(background_color=bg_color, 
-                            min_word_length=3,
-                            max_words=word_max)
+    cloud = WordCloud(background_color=bg_color,
+                        colormap=colors,
+                        min_word_length=3,
+                        max_words=word_max,
+                        include_numbers=True)
     cloud.generate(text)
     
     # plot it
