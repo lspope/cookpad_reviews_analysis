@@ -17,8 +17,8 @@ This project includes EDA and general text analysis of user reviews of the Cookp
 
 * Was there a difference in number of reviews submitted in 2019 (pre-pandemic) and 2020 (during pandemic)?
 * Was there a difference in ratings submitted in 2019 (pre-pandemic) and 2020 (during)?
-* What are the top 30 words used in 5 star ratings?
-* What are the top 30 words used in 2 and 1 star ratings?
+* What are the top 20 words used in 5 star ratings?
+* What are the top 20 words used in 2 and 1 star ratings?
 
 See the [EDA Notebook](./code/nb2_eda.ipynb) for more details.
 
