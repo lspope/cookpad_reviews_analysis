@@ -19,7 +19,7 @@ def get_reviews():
 
     # set the range to be num of posted reviews/count value. 
     # ex: 1400 = 280,000 (the num of posted reviews)/ 200 (count set above)
-    for batch_count in range(100):  
+    for batch_count in range(1400):  
         review_result, continuation_token = reviews(app_name, continuation_token=continuation_token)
         collected_reviews.extend(review_result)
         print(f'On Batch {batch_count}')
